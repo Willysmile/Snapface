@@ -1,6 +1,12 @@
 # Snapface
 
+
+This project was realised as part of the OpenClassroom course :
+
+["Débutez avec Angular"](https://openclassrooms.com/fr/courses/7471261-debutez-avec-angular) by Will Alexander
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+
 
 ## Development server
 
