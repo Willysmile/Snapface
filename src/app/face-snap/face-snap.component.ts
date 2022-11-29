@@ -20,4 +20,7 @@ ngOnInit() {
   this.snaps = 7;
   this.imageUrl = 'https://live.staticflickr.com/3428/3808485369_41e53c9333_h.jpg'
 }
+onAddSnap(){
+  this.snaps++;
+}
 }
