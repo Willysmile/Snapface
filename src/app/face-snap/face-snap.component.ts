@@ -10,7 +10,8 @@ title!: string;
 description!: string;
 createdDate!: Date;
 snaps!: number;
-
+snapped!:boolean
+buttonText!:string;
 imageUrl!: string;
 
 ngOnInit() {
@@ -19,8 +20,20 @@ ngOnInit() {
   this.createdDate = new Date();
   this.snaps = 7;
   this.imageUrl = 'https://live.staticflickr.com/3428/3808485369_41e53c9333_h.jpg'
+  this.snapped = false;
+  this.buttonText = "Oh Snap!";
 }
-onAddSnap(){
-  this.snaps++;
+onSnap(){
+ if (!this.snapped) {
+   this.snapped = !this.snapped;
+   this.snaps++;
+   this.buttonText = "Oops, un Snap!";
+ }
+ else {
+   this.snapped = !this.snapped;
+   this.snaps--;
+   this.buttonText = "Oh Snap!";
+ }
+
 }
 }
