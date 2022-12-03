@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
         description: 'Une autre peluche au Zoo de Pessac',
         imageUrl: 'https://live.staticflickr.com/2670/3808442547_1e9b58b3ed_h.jpg',
         createdDate: new Date(),
-        snaps: 5,
+        snaps: 100,
         location: 'Bordeaux'
       },
       {
